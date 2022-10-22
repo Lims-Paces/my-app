@@ -4,16 +4,21 @@ import shareIcon from '../images/share-button-desktop.svg'
 
 const Profile = () => {
   return (
-    <div>
-      <div className='profile'>
-        <img src={profilePic} alt='Oluwafemi Joy' id='profile_img' />
-        <p className='username' id='twitter'>
-          JoyPaces
-        </p>
+    <div className='flex'>
+      <div className=''>
+        <div className='mb-6'>
+          <img src={profilePic} alt='Oluwafemi Joy' id='profile_img' />
+        </div>
+        <div>
+          <p className='gap-0.5 top-7 font-extrabold' id='twitter'>
+            JoyPaces
+          </p>
+        </div>
         {/* <div className="slack-name" id='slack'></div> */}
       </div>
-
-      <img src={shareIcon} alt='' />
+      <div className='absolute -top-0.2 right-52'>
+        <img src={shareIcon} alt='' />
+      </div>
     </div>
   )
 }
