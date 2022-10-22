@@ -6,7 +6,7 @@ import Profile from './components/Profile'
 
 const App = () => {
   return (
-    <div className='flex flex-col items-center pt-16 px-7 gap-6 relative'>
+    <div className='flex flex-col items-center pt-16 px-px md:px-7 gap-6 relative'>
       <Profile />
       <Links text='Twitter Link' linkname='https://twitter.com/JoyPaces' />
       <Links text='Zuri Team' linkname='https://training.zuri.team/' />

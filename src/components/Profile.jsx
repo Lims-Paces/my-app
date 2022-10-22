@@ -1,6 +1,7 @@
 import React from 'react'
 import profilePic from '../images/profile-img.svg'
 import shareIcon from '../images/share-button-desktop.svg'
+import shareIcon2 from '../images/share-button.svg'
 
 const Profile = () => {
   return (
@@ -16,8 +17,11 @@ const Profile = () => {
         </div>
         {/* <div className="slack-name" id='slack'></div> */}
       </div>
-      <div className='absolute -top-0.2 right-52'>
+      <div className='absolute -top-0.2 right-52 hidden md:block'>
         <img src={shareIcon} alt='' />
+      </div>
+      <div className='absolute -top-0.2 left-80 block md:hidden'>
+        <img src={shareIcon2} alt='' />
       </div>
     </div>
   )
