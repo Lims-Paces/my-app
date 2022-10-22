@@ -17,7 +17,7 @@ const Profile = () => {
         </div>
         {/* <div className="slack-name" id='slack'></div> */}
       </div>
-      <div className='absolute -top-0.2 right-52 hidden md:block'>
+      <div className='absolute -top-0.2 right-80 hidden md:block'>
         <img src={shareIcon} alt='' />
       </div>
       <div className='absolute -top-0.2 left-72 block md:hidden'>
