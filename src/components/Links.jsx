@@ -4,11 +4,11 @@ import { BrowserRouter as Router } from 'react-router-dom'
 const Links = ({ text, linkname }) => {
   return (
     <Router>
-      <div className='bg-slate-200 h-16 w-10/12 flex items-center justify-center rounded-lg border border-solid py-6 drop-shadow font-medium'>
+      <section className='bg-slate-200 h-16 w-10/12 flex items-center justify-center rounded-lg border border-solid py-6 drop-shadow font-medium'>
         <a href={linkname} target='_blank' rel='noreferrer'>
           <button>{text}</button>
         </a>
-      </div>
+      </section>
     </Router>
   )
 }
