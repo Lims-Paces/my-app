@@ -1,4 +1,6 @@
 import React from 'react'
+import Footer from './components/Footer'
+import Icons from './components/Icons'
 import Links from './components/Links'
 import Profile from './components/Profile'
 
@@ -6,12 +8,20 @@ const App = () => {
   return (
     <div className=''>
       <Profile />
-      <Links text='Twitter Link' />
+      <Links text='Twitter Link' linkname='https://twitter.com/JoyPaces' />
       <Links text='Zuri Team' linkname='https://training.zuri.team/' />
-      <Links text='Zuri Books' />
-      <Links text='Python Books' />
-      <Links text='Background Check for Coders' />
-      <Links text='Design Books' />
+      <Links text='Zuri Books' linkname=' http://books.zuri.team' />
+      <Links text='Python Books' linkname='https://books.zuri.team/' />
+      <Links
+        text='Background Check for Coders'
+        linkname='https://background.zuri.team'
+      />
+      <Links
+        text='Design Books'
+        linkname='https://books.zuri.team/design-rules'
+      />
+      <Icons />
+      <Footer />
     </div>
   )
 }
