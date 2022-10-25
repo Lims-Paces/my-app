@@ -4,7 +4,7 @@
 
 This project allows a person to show their personal profile and link to various digital things that they sell.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and Tailwind CSS was used to create the project.
+[Create React App](https://github.com/facebook/create-react-app) and Tailwind CSS was used to create the project.
 
 In the project directory, you can run:
 
