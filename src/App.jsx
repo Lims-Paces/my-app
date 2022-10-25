@@ -14,7 +14,7 @@ const App = () => {
     <div className='flex flex-col items-center pt-16 px-px md:px-7 gap-6 relative'>
       <Routes>
         <Route path='/' element={<Homepage />} />
-        <Route path='/error' element={<Error />} />
+        <Route path='*' element={<Error />} />
         <Route path='/books' element={<BooksPage />} />
         <Route path='/pythonbooks' element={<PythonBookPage />} />
         <Route path='/design' element={<Design />} />
