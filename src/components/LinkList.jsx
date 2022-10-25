@@ -14,19 +14,24 @@ const details = [
     linkname: 'https://training.zuri.team/',
   },
   {
+    id: 'books',
+    text: 'Zuri Books',
+    linkname: '/books',
+  },
+  {
     id: 'book__python',
     text: 'Python Books',
-    linkname: 'https://books.zuri.team/',
+    linkname: '/pythonbooks',
   },
   {
     id: 'pitch',
     text: 'Background Check for Coders',
-    linkname: 'https://background.zuri.team',
+    linkname: '/pitch',
   },
   {
     id: 'book__design',
     text: 'Design Books',
-    linkname: 'https://books.zuri.team/design-rules',
+    linkname: '/design',
   },
 ]
 
