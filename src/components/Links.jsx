@@ -9,7 +9,9 @@ const Links = ({ text, linkname }) => {
         Google.com
       </a> */}
       <Link to={linkname} target='_blank'>
-        <button>{text}</button>
+        <a href={linkname} target='_blank' rel='noreferrer'>
+          <button>{text}</button>
+        </a>
       </Link>
     </div>
   )
