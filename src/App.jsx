@@ -2,18 +2,21 @@ import React from 'react'
 
 import { Route, Routes } from 'react-router-dom'
 import Error from './components/Error'
-import Footer from './components/Footer'
-import Icons from './components/Icons'
-import Profile from './components/Profile'
-import LinkList from './components/LinkList'
+
+import Homepage from './pages/Homepage'
 
 const App = () => {
   return (
     <div className='flex flex-col items-center pt-16 px-px md:px-7 gap-6 relative'>
-      <Profile />
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/error' element={<Error />} />
+      </Routes>
+
+      {/* <Profile />
       <LinkList />
       <Icons />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }
