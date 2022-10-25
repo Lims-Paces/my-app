@@ -6,7 +6,7 @@ import shareIcon2 from '../images/share-button.svg'
 const Profile = () => {
   return (
     <section className='flex'>
-      <div className=''>
+      <div className='w-10/12 relative'>
         <div className='mb-6'>
           <img src={profilePic} alt='Oluwafemi Joy' id='profile_img' />
         </div>
@@ -17,10 +17,10 @@ const Profile = () => {
         </div>
         {/* <div className="slack-name" id='slack'></div> */}
       </div>
-      <div className='absolute -top-0.2 right-80 hidden md:block'>
+      <div className='absolute top-12 left-90 hidden md:right-40 md:block'>
         <img src={shareIcon} alt='' />
       </div>
-      <div className='absolute -top-0.2 left-72 block md:hidden'>
+      <div className='absolute top-12 right-8 block md:hidden'>
         <img src={shareIcon2} alt='' />
       </div>
     </section>

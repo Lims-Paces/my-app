@@ -1,25 +1,17 @@
 import React from 'react'
+
+import { Route, Routes } from 'react-router-dom'
+import Error from './components/Error'
 import Footer from './components/Footer'
 import Icons from './components/Icons'
-import Links from './components/Links'
 import Profile from './components/Profile'
+import LinkList from './components/LinkList'
 
 const App = () => {
   return (
     <div className='flex flex-col items-center pt-16 px-px md:px-7 gap-6 relative'>
       <Profile />
-      <Links text='Twitter Link' linkname='https://twitter.com/JoyPaces' />
-      <Links text='Zuri Team' linkname='https://training.zuri.team/' />
-      <Links text='Zuri Books' linkname=' http://books.zuri.team' />
-      <Links text='Python Books' linkname='https://books.zuri.team/' />
-      <Links
-        text='Background Check for Coders'
-        linkname='https://background.zuri.team'
-      />
-      <Links
-        text='Design Books'
-        linkname='https://books.zuri.team/design-rules'
-      />
+      <LinkList />
       <Icons />
       <Footer />
     </div>
