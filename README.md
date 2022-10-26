@@ -1,4 +1,4 @@
-# https://hng-stage-one.netlify.app/
+# https://linktree-hng.netlify.app/
 
 ## A Linktree Web App that shows personal profile
 
