@@ -15,7 +15,7 @@ const Profile = () => {
             JoyPaces
           </p>
         </div>
-        {/* <div className="slack-name" id='slack'></div> */}
+        {/* <div id='slack'>JoyPaces</div> */}
       </div>
       <div className='absolute top-12 left-90 hidden md:right-40 md:block'>
         <img src={shareIcon} alt='' />

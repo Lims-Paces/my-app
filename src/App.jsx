@@ -20,11 +20,6 @@ const App = () => {
         <Route path='/design' element={<Design />} />
         <Route path='/pitch' element={<Pitch />} />
       </Routes>
-
-      {/* <Profile />
-      <LinkList />
-      <Icons />
-      <Footer /> */}
     </div>
   )
 }
