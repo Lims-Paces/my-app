@@ -16,7 +16,7 @@ const BooksPage = () => {
           </p>
         </div>
 
-        <div className='bg-slate-200 my-3  drop-shadow font-medium rounded-lg text-center py-4 px-14 border h-14 mt-12  md:mt-0'>
+        <div className='bg-slate-200 my-3  drop-shadow font-medium rounded-lg text-center py-4 px-14 border h-14 mt-12  md:mt-12'>
           <a href=' https://books.zuri.team/design-rules' target='blank'>
             <button>Zuri Books</button>
           </a>
