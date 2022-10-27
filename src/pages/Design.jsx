@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import Icons from '../components/Icons'
 
@@ -19,6 +20,9 @@ const Design = () => {
           <a href=' https://books.zuri.team/design-rules' target='blank'>
             <button>Design Books</button>
           </a>
+        </div>
+        <div className='bg-slate-200 my-3  drop-shadow font-medium rounded-lg text-center py-4 px-14 border h-14 hover:bg-slate-300'>
+          <Link to='/'>Take me home</Link>
         </div>
       </div>
       <Icons />

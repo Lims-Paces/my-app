@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from './Footer'
 
 const Error = () => {
@@ -24,10 +25,10 @@ const Error = () => {
 
         <div className='flex flex-col md:flex-row gap-3'>
           <div className='rounded-lg text-center py-4 px-14 border shadow-black h-14 hidden md:block'>
-            <a href='#'>Go back</a>
+            <Link to='/'>Go back</Link>
           </div>
           <div className='py-4 px-6 text-white bg-violet-600 rounded-lg text-center'>
-            <a href='#'>Take me home</a>
+            <Link to='/'>Take me home</Link>
           </div>
           <div className='rounded-lg text-center py-4 px-14 border shadow-black h-14 md:hidden mt-4'>
             <a href='#'>Go back</a>
