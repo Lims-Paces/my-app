@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Footer from '../components/Footer'
+import Icons from '../components/Icons'
 
 const BooksPage = () => {
   return (
@@ -16,12 +17,13 @@ const BooksPage = () => {
           </p>
         </div>
 
-        <div className='bg-slate-200 my-3  drop-shadow font-medium rounded-lg text-center py-4 px-14 border h-14 mt-12  md:mt-12'>
+        <div className='bg-slate-200 my-3  drop-shadow font-medium rounded-lg text-center py-4 px-14 border h-14 mt-12  md:mt-12 hover:bg-slate-300'>
           <a href=' https://books.zuri.team/design-rules' target='blank'>
             <button>Zuri Books</button>
           </a>
         </div>
       </div>
+      <Icons />
       <Footer />
     </>
   )
