@@ -2,18 +2,18 @@ import React from 'react'
 
 import Footer from '../components/Footer'
 import Icons from '../components/Icons'
-import LinkList from '../components/LinkList'
 import Profile from '../components/Profile'
+import Links from './Links'
 
-const Homepage = () => {
+const Home = () => {
   return (
     <>
       <Profile />
-      <LinkList />
+      <Links />
       <Icons />
       <Footer />
     </>
   )
 }
 
-export default Homepage
+export default Home
