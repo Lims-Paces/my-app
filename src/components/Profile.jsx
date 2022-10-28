@@ -8,7 +8,7 @@ const Profile = () => {
     <section className='flex'>
       <div className='w-10/12 relative'>
         <div className='mb-6'>
-          <img src={profilePic} alt='Oluwafemi Joy' id='profile_img' />
+          <img src={profilePic} alt='Oluwafemi Joy' id='profile__img' />
         </div>
         <div>
           <p className='gap-0.5 top-7 font-extrabold' id='twitter'>
