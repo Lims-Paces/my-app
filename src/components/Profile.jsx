@@ -7,8 +7,8 @@ const Profile = () => {
   return (
     <section className='flex'>
       <div className='w-10/12 relative'>
-        <div className='mb-6'>
-          <img src={profilePic} alt='Oluwafemi Joy' id='profile__img' />
+        <div className='mb-6 relative'>
+          <img src={profilePic} alt='Oluwafemi Joy' id='profile__img ' />
         </div>
         <div>
           <p className='gap-0.5 top-7 font-extrabold' id='twitter'>
