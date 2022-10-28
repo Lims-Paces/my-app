@@ -4,12 +4,7 @@ const Links = (props) => {
   return (
     <div className='w-10/12 flex flex-col'>
       <div className='bg-slate-200 my-3 flex items-center justify-center rounded-lg border border-solid py-6 drop-shadow font-medium hover:bg-slate-300'>
-        <a
-          href='https://twitter.com/JoyPaces'
-          target='_blank'
-          rel='noreferrer'
-          id='twitter_link'
-        >
+        <a href='https://twitter.com/JoyPaces' target='_blank' rel='noreferrer'>
           <button>Twitter Link</button>
         </a>
       </div>
