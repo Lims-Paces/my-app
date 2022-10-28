@@ -24,7 +24,7 @@ const BooksPage = () => {
           </a>
         </div>
         <div className='bg-slate-200 my-3  drop-shadow font-medium rounded-lg text-center py-4 px-14 border h-14 hover:bg-slate-300'>
-          <Link to='/'>Take me home</Link>
+          <Link to='/'>go home</Link>
         </div>
       </div>
       <Icons />
