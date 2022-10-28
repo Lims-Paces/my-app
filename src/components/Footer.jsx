@@ -4,7 +4,7 @@ import i4g from '../images/I4G.svg'
 
 const Footer = () => {
   return (
-    <footer className='w-11/12 flex  px-8 h-40 py-12  md:block'>
+    <footer className='w-11/12 flex  px-8 h-40  md:block'>
       <div className='w-full flex flex-col gap-8 md:gap-0 md:flex-row items-start md:items-end justify-between  border-t h-16 py-8 md:py-12'>
         <img src={zuri} alt='' />
         <small className='test-sm'>HNG Internship 9 Frontend Task</small>

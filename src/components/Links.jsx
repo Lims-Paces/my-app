@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Links = (props) => {
+const Links = () => {
   return (
     <div className='w-10/12 flex flex-col'>
       <div className='bg-slate-200 my-3 flex items-center justify-center rounded-lg border border-solid py-6 drop-shadow font-medium hover:bg-slate-300'>
         <a href='https://twitter.com/JoyPaces' target='_blank' rel='noreferrer'>
-          <button>Twitter Link</button>
+          Twitter Link
         </a>
       </div>
       <div className='bg-slate-200 my-3 flex items-center justify-center rounded-lg border border-solid py-6 drop-shadow font-medium hover:bg-slate-300'>
@@ -15,7 +15,7 @@ const Links = (props) => {
           rel='noreferrer'
           id='btn__zuri'
         >
-          <button>Zuri Team</button>
+          Zuri Team
         </a>
       </div>
       <div className='bg-slate-200 my-3 flex items-center justify-center rounded-lg border border-solid py-6 drop-shadow font-medium hover:bg-slate-300'>
@@ -25,7 +25,7 @@ const Links = (props) => {
           rel='noreferrer'
           id='books'
         >
-          <button>Zuri Books</button>
+          Zuri Books
         </a>
       </div>
       <div className='bg-slate-200 my-3 flex items-center justify-center rounded-lg border border-solid py-6 drop-shadow font-medium hover:bg-slate-300'>
@@ -35,7 +35,7 @@ const Links = (props) => {
           rel='noreferrer'
           id='book__python'
         >
-          <button>Python Books</button>
+          Python Books
         </a>
       </div>
       <div className='bg-slate-200 my-3 flex items-center justify-center rounded-lg border border-solid py-6 drop-shadow font-medium hover:bg-slate-300'>
@@ -45,7 +45,7 @@ const Links = (props) => {
           rel='noreferrer'
           id='pitch'
         >
-          <button>Background Check for Coders</button>
+          Background Check for Coders
         </a>
       </div>
       <div className='bg-slate-200 my-3 flex items-center justify-center rounded-lg border border-solid py-6 drop-shadow font-medium hover:bg-slate-300'>
@@ -55,7 +55,7 @@ const Links = (props) => {
           rel='noreferrer'
           id='book__design'
         >
-          <button>Design Books</button>
+          Design Books
         </a>
       </div>
     </div>

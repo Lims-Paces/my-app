@@ -7,8 +7,13 @@ const Profile = () => {
   return (
     <section className='flex'>
       <div className='w-10/12 relative'>
-        <div className='mb-6 relative'>
-          <img src={profilePic} alt='Oluwafemi Joy' id='profile__img ' />
+        <div className='mb-6'>
+          <img
+            src={profilePic}
+            alt='Oluwafemi Joy'
+            id='profile__img '
+            classname='hover:opacity-100'
+          />
         </div>
         <div>
           <p className='gap-0.5 top-7 font-extrabold' id='twitter'>
@@ -20,7 +25,7 @@ const Profile = () => {
       <div className='absolute top-10 hidden md:right-44 xl:right-64 md:block'>
         <img src={shareIcon} alt='' />
       </div>
-      <div className='absolute top-12 right-8 block md:hidden'>
+      <div className='absolute right-8 top-11 block md:hidden'>
         <img src={shareIcon2} alt='' />
       </div>
     </section>
