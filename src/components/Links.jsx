@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Links = () => {
   return (
@@ -57,6 +58,11 @@ const Links = () => {
         >
           Design Books
         </a>
+      </div>
+      <div className='bg-slate-200 my-3 flex items-center justify-center rounded-lg border border-solid py-6 drop-shadow font-medium hover:bg-slate-300'>
+        <Link to='/contact' id='contact'>
+          Contact Me
+        </Link>
       </div>
     </div>
   )

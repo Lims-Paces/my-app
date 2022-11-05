@@ -5,3 +5,13 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
+
+@layer components {
+    .span {
+        display: none;
+    }
+    input:invalid~span {
+        display: block;
+    }
+    /* ... */
+}
