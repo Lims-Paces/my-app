@@ -1,4 +1,4 @@
-# https://linktree-hng-1.netlify.app/
+# https://linktree-joypaces.netlify.app/
 
 ## A Linktree Web App that shows personal profile
 
