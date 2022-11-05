@@ -23,9 +23,11 @@ const Contact = () => {
               <div>
                 <label>First Name</label>
                 <input
+
                   type='text'
                   placeholder='Enter your first name'
                   id='first_name'
+Required
                   className='flex flex-row items-center mb-6 py-[0.63rem] px-[0.88rem] w-[21.44rem] h-[2.8rem] bg-[#FFFFFF] border-[1px] border-solid border-[#D0D5DD] rounded-lg text-[#667085]'
                 />
               </div>
@@ -35,6 +37,7 @@ const Contact = () => {
                   type='text'
                   placeholder='Enter your last name'
                   id='last_name'
+Required
                   className='flex flex-row items-center mb-6 py-[0.63rem] px-[0.88rem] w-[21.44rem] h-[2.8rem] bg-[#FFFFFF] border-[1px] border-solid border-[#D0D5DD] rounded-lg text-[#667085]'
                 />
               </div>
@@ -45,9 +48,10 @@ const Contact = () => {
                 type='email'
                 placeholder='yourname@gmail.com'
                 id='email'
-                className='flex flex-row items-center mb-2 py-[0.63rem] px-[0.88rem] w-full h-[2.8rem] bg-[#FFFFFF] border-[1px] border-solid border-[#D0D5DD] rounded-lg text-[#667085]'
+Required
+                className='flex flex-row items-center mb-2 py-[0.63rem] px-[0.88rem] w-full h-[2.8rem] bg-[#FFFFFF] border-[1px] border-solid border-[#D0D5DD] rounded-lg  focus:outline-none focus:border-sky-500 invalid:border-pink-500   focus:ring-1 focus:ring-sky-500    focus:invalid:ring-pink-500 invalid:border-pink-500 text-[#667085]'
               />
-              <span className='text-[#475467] span'>
+              <span className='text-[#475467]'>
                 This is a hint text to help user.
               </span>
             </div>
@@ -55,11 +59,12 @@ const Contact = () => {
               <label>Message</label>
               <textarea
                 id='message'
-                className='resize-none flex flex-row items-center py-[0.63rem] leading-6 px-[0.88rem] w-full bg-[#FFFFFF] border-[1px] border-solid border-[#D0D5DD] rounded-lg text-[#667085] h-[8.3rem] shadow-[0px 1px 2px rgba(16, 24, 40, 0.05)] mb-2'
+Required
+                className='resize-none flex flex-row items-center py-[0.63rem] leading-6 px-[0.88rem] w-full bg-[#FFFFFF] border-[1px] border-solid border-[#D0D5DD]  focus:outline-none focus:border-sky-500 rounded-lg   focus:ring-1 focus:ring-sky-500 text-[#667085] h-[8.3rem] shadow-[0px 1px 2px rgba(16, 24, 40, 0.05)] invalid:border-pink-500 focus:invalid:ring-pink-500 focus:invalid:border-pink-500   mb-2'
               >
                 Send me a message and I&#180;ll reply you as soon as possible...
               </textarea>
-              <span className='text-[#475467] span'>
+              <span className='text-[#475467]'>
                 Please enter a message
               </span>
             </div>
