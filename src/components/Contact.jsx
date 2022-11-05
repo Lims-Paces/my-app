@@ -28,7 +28,7 @@ const Contact = () => {
                   placeholder='Enter your first name'
                   id='first_name'
 Required
-                  className='flex flex-row items-center mb-6 py-[0.63rem] px-[0.88rem] w-[21.44rem] h-[2.8rem] bg-[#FFFFFF] border-[1px] border-solid border-[#D0D5DD] rounded-lg text-[#667085]'
+                  className='flex flex-row  items-center mb-6 py-[0.63rem] px-[0.88rem] w-[21.44rem] h-[2.8rem] bg-[#FFFFFF] border-[1px] border-solid border-[#D0D5DD]   focus:invalid:border-pink-500 focus:invalid:ring-pink-500 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500    rounded-lg text-[#667085]'
                 />
               </div>
               <div>
@@ -38,7 +38,7 @@ Required
                   placeholder='Enter your last name'
                   id='last_name'
 Required
-                  className='flex flex-row items-center mb-6 py-[0.63rem] px-[0.88rem] w-[21.44rem] h-[2.8rem] bg-[#FFFFFF] border-[1px] border-solid border-[#D0D5DD] rounded-lg text-[#667085]'
+                  className='flex flex-row items-center mb-6 py-[0.63rem] px-[0.88rem] w-[21.44rem] h-[2.8rem] bg-[#FFFFFF] border-[1px] border-solid border-[#D0D5DD]  focus:invalid:border-pink-500 focus:invalid:ring-pink-500 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500   rounded-lg text-[#667085]'
                 />
               </div>
             </div>
