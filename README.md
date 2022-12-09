@@ -1,4 +1,4 @@
-# https://linktree-joypaces.netlify.app/
+# https://linktree-joypaces.vercel.app/
 
 ## A Linktree Web App that shows personal profile
 
